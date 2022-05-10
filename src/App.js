@@ -1,25 +1,71 @@
-import logo from './logo.svg';
-import './App.css';
+// import "./App.css";
+// // import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// // import UserSignup from "./component/User/UserSignup";
+// // import UserLogin from "./component/User/UserLogin";
+// // import Home from "./component/Pages/Home";
+// // import { ToastContainer } from "react-toastify";
+// // import "react-toastify/dist/ReactToastify.css";
+// // import TablePage from "./component/Pages/TablePage";
+// // import List from "./component/User/List";
+// // import data from "./component/User/data";
 
-export default App;
+// // const InNotAuthorised = ({ children }) => {
+// //   const token = localStorage.getItem("token");
+// //   if (token) {
+// //     return <Navigate to={"/"} />;
+// //   }
+// //   return children;
+// // };
+
+// // const InAuthorised = ({ children }) => {
+// //   const token = localStorage.getItem("token");
+// //   if (!token) {
+// //     return <Navigate to={"/login"} />;
+// //   }
+// //   return children;
+// // };
+
+// function App() {
+//   return (
+//     <>
+//       <App />
+//     </>
+//     //<BrowserRouter>
+
+//     /* <Routes>
+//         <Route
+//           path="/signup"
+//           element={
+//             <InNotAuthorised>
+//               <UserSignup />
+//             </InNotAuthorised>
+//           }
+//         />
+//         <Route
+//           path="/login"
+//           element={
+//             <InNotAuthorised>
+//               <UserLogin />
+//             </InNotAuthorised>
+//           }
+//         />
+//         <Route
+//           path="/"
+//           element={
+//             <InAuthorised>
+//               <Home />
+//             </InAuthorised>
+//           }
+//         ></Route>
+//       </Routes>
+//       <ToastContainer /> */
+
+//     //   <Routes>
+//     //     <Route path="/" element={<TablePage />} />
+//     //   </Routes>
+//     // </BrowserRouter>
+//   );
+// }
+
+// export default App;
